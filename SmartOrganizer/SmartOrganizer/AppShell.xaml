@@ -7,14 +7,28 @@
     Shell.FlyoutBehavior="Disabled"
     Title="SmartOrganizer">
 
+    <!-- Strona logowania -->
     <ShellContent
-        Title="Logowanie"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="LoginPage"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Title="Logowanie" />
 
+    <!-- Strona kalendarza (główna część aplikacji) -->
     <ShellContent
         Route="CalendarPage"
         ContentTemplate="{DataTemplate local:CalendarPage}"
         Title="Kalendarz" />
+
+    <!-- Strona ustawień -->
+    <ShellContent
+        Route="SettingsPage"
+        ContentTemplate="{DataTemplate local:SettingsPage}"
+        Title="Ustawienia" />
+
+    <!-- Strona planu dnia -->
+    <ShellContent
+        Route="DailyPlanPage"
+        ContentTemplate="{DataTemplate local:DailyPlanPage}"
+        Title="Plan Dnia" />
 
 </Shell>

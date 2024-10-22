@@ -1,0 +1,18 @@
+# Foldery generowane przez Visual Studio
+.vs/
+*.user
+*.suo
+
+# Foldery binarne i kompilacyjne
+bin/
+obj/
+*.dll
+*.exe
+
+# Pliki tymczasowe generowane przez system operacyjny
+Thumbs.db
+.DS_Store
+
+# Pliki generowane przez system kontroli wersji
+.idea/
+*.log

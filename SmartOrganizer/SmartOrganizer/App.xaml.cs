@@ -1,4 +1,6 @@
-﻿namespace SmartOrganizer
+﻿using Microsoft.Maui.Controls;
+
+namespace SmartOrganizer
 {
     public partial class App : Application
     {
