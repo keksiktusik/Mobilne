@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="SmartOrganizer.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:SmartOrganizer"
+    Shell.FlyoutBehavior="Disabled"
+    Title="SmartOrganizer">
+
+    <ShellContent
+        Title="Logowanie"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+    <ShellContent
+        Route="CalendarPage"
+        ContentTemplate="{DataTemplate local:CalendarPage}"
+        Title="Kalendarz" />
+
+</Shell>
