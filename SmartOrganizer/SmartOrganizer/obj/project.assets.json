@@ -400,10 +400,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
+          "Microsoft.Maui.Graphics": "8.0.92",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -419,7 +419,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -443,6 +443,22 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Biometric": "1.1.0"
+        },
+        "compile": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -725,6 +741,27 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Arch.Core.Runtime.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Biometric/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.1.0.8",
+          "Xamarin.AndroidX.Core": "1.3.2.1",
+          "Xamarin.AndroidX.Fragment": "1.2.5.5"
+        },
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Biometric.targets": {}
         }
       },
       "Xamarin.AndroidX.Browser/1.5.0.3": {
@@ -2607,10 +2644,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
+          "Microsoft.Maui.Graphics": "8.0.92",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -2626,7 +2663,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -2650,6 +2687,22 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Biometric": "1.1.0"
+        },
+        "compile": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -2932,6 +2985,27 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Arch.Core.Runtime.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Biometric/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.1.0.8",
+          "Xamarin.AndroidX.Core": "1.3.2.1",
+          "Xamarin.AndroidX.Fragment": "1.2.5.5"
+        },
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Biometric.targets": {}
         }
       },
       "Xamarin.AndroidX.Browser/1.5.0.3": {
@@ -4814,10 +4888,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
+          "Microsoft.Maui.Graphics": "8.0.92",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -4833,7 +4907,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -4857,6 +4931,22 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Biometric": "1.1.0"
+        },
+        "compile": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -5139,6 +5229,27 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Arch.Core.Runtime.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Biometric/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.1.0.8",
+          "Xamarin.AndroidX.Core": "1.3.2.1",
+          "Xamarin.AndroidX.Fragment": "1.2.5.5"
+        },
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Biometric.targets": {}
         }
       },
       "Xamarin.AndroidX.Browser/1.5.0.3": {
@@ -7021,10 +7132,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
+          "Microsoft.Maui.Graphics": "8.0.92",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -7040,7 +7151,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -7064,6 +7175,22 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Biometric": "1.1.0"
+        },
+        "compile": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -7346,6 +7473,27 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Arch.Core.Runtime.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Biometric/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.1.0.8",
+          "Xamarin.AndroidX.Core": "1.3.2.1",
+          "Xamarin.AndroidX.Fragment": "1.2.5.5"
+        },
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Biometric.targets": {}
         }
       },
       "Xamarin.AndroidX.Browser/1.5.0.3": {
@@ -9228,10 +9376,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
+          "Microsoft.Maui.Graphics": "8.0.92",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -9247,7 +9395,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -9271,6 +9419,22 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Biometric": "1.1.0"
+        },
+        "compile": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -9553,6 +9717,27 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Arch.Core.Runtime.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Biometric/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.1.0.8",
+          "Xamarin.AndroidX.Core": "1.3.2.1",
+          "Xamarin.AndroidX.Fragment": "1.2.5.5"
+        },
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Biometric.targets": {}
         }
       },
       "Xamarin.AndroidX.Browser/1.5.0.3": {
@@ -11435,10 +11620,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
+          "Microsoft.Maui.Graphics": "8.0.92",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -11454,7 +11639,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -11478,6 +11663,22 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Biometric": "1.1.0"
+        },
+        "compile": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -11760,6 +11961,27 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Arch.Core.Runtime.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Biometric/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.1.0.8",
+          "Xamarin.AndroidX.Core": "1.3.2.1",
+          "Xamarin.AndroidX.Fragment": "1.2.5.5"
+        },
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Biometric.targets": {}
         }
       },
       "Xamarin.AndroidX.Browser/1.5.0.3": {
@@ -13642,10 +13864,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
+          "Microsoft.Maui.Graphics": "8.0.92",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -13661,7 +13883,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -13685,6 +13907,22 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Biometric": "1.1.0"
+        },
+        "compile": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -13967,6 +14205,27 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Arch.Core.Runtime.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Biometric/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.1.0.8",
+          "Xamarin.AndroidX.Core": "1.3.2.1",
+          "Xamarin.AndroidX.Fragment": "1.2.5.5"
+        },
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Biometric.targets": {}
         }
       },
       "Xamarin.AndroidX.Browser/1.5.0.3": {
@@ -15849,10 +16108,10 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
+          "Microsoft.Maui.Graphics": "8.0.92",
           "Xamarin.AndroidX.Browser": "1.5.0.3",
           "Xamarin.AndroidX.Security.SecurityCrypto": "1.1.0.1-alpha06",
           "Xamarin.Google.Crypto.Tink.Android": "1.10.0"
@@ -15868,7 +16127,7 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
           "lib/net8.0-android34.0/Microsoft.Maui.Graphics.dll": {
@@ -15892,6 +16151,22 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Biometric": "1.1.0"
+        },
+        "compile": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Xamarin.Android.Glide/4.15.1.2": {
@@ -16174,6 +16449,27 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.AndroidX.Arch.Core.Runtime.targets": {}
+        }
+      },
+      "Xamarin.AndroidX.Biometric/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.AndroidX.Annotation": "1.1.0.8",
+          "Xamarin.AndroidX.Core": "1.3.2.1",
+          "Xamarin.AndroidX.Fragment": "1.2.5.5"
+        },
+        "compile": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll": {
+            "related": ".pdb"
+          }
+        },
+        "build": {
+          "buildTransitive/monoandroid90/Xamarin.AndroidX.Biometric.targets": {}
         }
       },
       "Xamarin.AndroidX.Browser/1.5.0.3": {
@@ -18035,31 +18331,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -18075,6 +18371,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -18456,31 +18765,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -18496,6 +18805,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -18877,31 +19199,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -18917,6 +19239,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -19298,31 +19633,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -19338,6 +19673,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -19719,31 +20067,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -19759,6 +20107,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -20140,31 +20501,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -20180,6 +20541,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -20561,31 +20935,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -20601,6 +20975,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -20982,31 +21369,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -21022,6 +21409,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -21403,31 +21803,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -21443,6 +21843,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -21824,31 +22237,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -21864,6 +22277,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -22245,31 +22671,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -22285,6 +22711,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -22666,31 +23105,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -22706,6 +23145,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -23087,31 +23539,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -23127,6 +23579,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -23508,31 +23973,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -23548,6 +24013,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -23929,31 +24407,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -23969,6 +24447,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -24350,31 +24841,31 @@
           "buildTransitive/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82"
+          "Microsoft.Maui.Graphics": "8.0.92"
         },
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll": {
             "related": ".pdb;.xml"
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "compile": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         },
         "runtime": {
-          "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll": {
+          "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
         }
@@ -24390,6 +24881,19 @@
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -24817,11 +25321,11 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.Maui.Graphics": "8.0.92",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Essentials.dll": {
@@ -24834,12 +25338,12 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
           "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -24884,7 +25388,7 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.5.240627000": {
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
@@ -24979,6 +25483,19 @@
           "runtimes/win10-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll": {
             "assetType": "native",
             "rid": "win10-x86"
+          }
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
           }
         }
       }
@@ -25393,11 +25910,11 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.Maui.Graphics": "8.0.92",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Essentials.dll": {
@@ -25410,12 +25927,12 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
           "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -25460,7 +25977,7 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.5.240627000": {
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
@@ -25530,6 +26047,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -25943,11 +26473,11 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.Maui.Graphics": "8.0.92",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Essentials.dll": {
@@ -25960,12 +26490,12 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
           "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -26010,7 +26540,7 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.5.240627000": {
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
@@ -26080,6 +26610,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -26493,11 +27036,11 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.Maui.Graphics": "8.0.92",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Essentials.dll": {
@@ -26510,12 +27053,12 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
           "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -26560,7 +27103,7 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.5.240627000": {
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
@@ -26630,6 +27173,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -27043,11 +27599,11 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.Maui.Graphics": "8.0.92",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Essentials.dll": {
@@ -27060,12 +27616,12 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
           "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -27110,7 +27666,7 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.5.240627000": {
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
@@ -27180,6 +27736,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -27593,11 +28162,11 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.Maui.Graphics": "8.0.92",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Essentials.dll": {
@@ -27610,12 +28179,12 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
           "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -27660,7 +28229,7 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.5.240627000": {
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
@@ -27730,6 +28299,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -28143,11 +28725,11 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.Maui.Graphics": "8.0.92",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Essentials.dll": {
@@ -28160,12 +28742,12 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
           "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -28210,7 +28792,7 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.5.240627000": {
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
@@ -28280,6 +28862,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     },
@@ -28696,11 +29291,11 @@
           "buildTransitive/net6.0-windows10.0.17763.0/Microsoft.Maui.Core.targets": {}
         }
       },
-      "Microsoft.Maui.Essentials/8.0.82": {
+      "Microsoft.Maui.Essentials/8.0.92": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Maui.Graphics": "8.0.82",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.Maui.Graphics": "8.0.92",
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Essentials.dll": {
@@ -28713,12 +29308,12 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/8.0.82": {
+      "Microsoft.Maui.Graphics/8.0.92": {
         "type": "package",
         "dependencies": {
           "Microsoft.Graphics.Win2D": "1.2.0",
           "Microsoft.IO.RecyclableMemoryStream": "3.0.1",
-          "Microsoft.WindowsAppSDK": "1.5.240627000"
+          "Microsoft.WindowsAppSDK": "1.5.240802000"
         },
         "compile": {
           "lib/net8.0-windows10.0.19041/Microsoft.Maui.Graphics.dll": {
@@ -28763,7 +29358,7 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.5.240627000": {
+      "Microsoft.WindowsAppSDK/1.5.240802000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.22621.756"
@@ -28836,6 +29431,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Plugin.Fingerprint/2.1.5": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Plugin.Fingerprint.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     }
@@ -29870,10 +30478,10 @@
         "microsoft.maui.core.nuspec"
       ]
     },
-    "Microsoft.Maui.Essentials/8.0.82": {
-      "sha512": "Rcg+49oW7px7OC4NO0AMFeI0R51kDflyj9V0bFIh3ehY/3kI1Pk9pvHPGt1eRtbiejDOa0VTZKt/tKYme+OXJQ==",
+    "Microsoft.Maui.Essentials/8.0.92": {
+      "sha512": "H+XHhkrXeBc0NM/omyg6hAIU9Hq4myUuBBiu52rxAmC6qJlQ3XH8k+aHC3eX3DT43zsZnBIC8+1U8QOpraOXGQ==",
       "type": "package",
-      "path": "microsoft.maui.essentials/8.0.82",
+      "path": "microsoft.maui.essentials/8.0.92",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -29910,9 +30518,15 @@
         "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.dll",
         "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.pdb",
         "lib/net8.0-ios17.0/Microsoft.Maui.Essentials.xml",
+        "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.dll",
+        "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.pdb",
+        "lib/net8.0-ios17.5/Microsoft.Maui.Essentials.xml",
         "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.dll",
         "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.pdb",
         "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Essentials.xml",
+        "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.dll",
+        "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.pdb",
+        "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Essentials.xml",
         "lib/net8.0-tizen7.0/Microsoft.Maui.Essentials.dll",
         "lib/net8.0-tizen7.0/Microsoft.Maui.Essentials.pdb",
         "lib/net8.0-tizen7.0/Microsoft.Maui.Essentials.xml",
@@ -29931,14 +30545,14 @@
         "lib/netstandard2.1/Microsoft.Maui.Essentials.dll",
         "lib/netstandard2.1/Microsoft.Maui.Essentials.pdb",
         "lib/netstandard2.1/Microsoft.Maui.Essentials.xml",
-        "microsoft.maui.essentials.8.0.82.nupkg.sha512",
+        "microsoft.maui.essentials.8.0.92.nupkg.sha512",
         "microsoft.maui.essentials.nuspec"
       ]
     },
-    "Microsoft.Maui.Graphics/8.0.82": {
-      "sha512": "l0H7YufzTp8On98mx9BzTp7RQPpGPJNJBJMatIHxtEsDCGX0HSYnsoz07v0+dJsOVkfXMVTQmmmOrDujVNhpYQ==",
+    "Microsoft.Maui.Graphics/8.0.92": {
+      "sha512": "A/EWj70RFH3jxwb/YjuPwzBO7vHPCnvwrwIU9D7WBsUshQT+nJBddYmCBPttRzqc3FCNBaPmJhw/WVkKArsyuw==",
       "type": "package",
-      "path": "microsoft.maui.graphics/8.0.82",
+      "path": "microsoft.maui.graphics/8.0.92",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -29976,9 +30590,15 @@
         "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.dll",
         "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.pdb",
         "lib/net8.0-ios17.0/Microsoft.Maui.Graphics.xml",
+        "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.dll",
+        "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.pdb",
+        "lib/net8.0-ios17.5/Microsoft.Maui.Graphics.xml",
         "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.dll",
         "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.pdb",
         "lib/net8.0-maccatalyst17.0/Microsoft.Maui.Graphics.xml",
+        "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.dll",
+        "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.pdb",
+        "lib/net8.0-maccatalyst17.5/Microsoft.Maui.Graphics.xml",
         "lib/net8.0-macos14.0/Microsoft.Maui.Graphics.dll",
         "lib/net8.0-macos14.0/Microsoft.Maui.Graphics.pdb",
         "lib/net8.0-macos14.0/Microsoft.Maui.Graphics.xml",
@@ -30000,7 +30620,7 @@
         "lib/netstandard2.1/Microsoft.Maui.Graphics.dll",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.pdb",
         "lib/netstandard2.1/Microsoft.Maui.Graphics.xml",
-        "microsoft.maui.graphics.8.0.82.nupkg.sha512",
+        "microsoft.maui.graphics.8.0.92.nupkg.sha512",
         "microsoft.maui.graphics.nuspec"
       ]
     },
@@ -30329,10 +30949,10 @@
         "schemas/10.0.22621.0/winrt/UapManifestSchema_v8.xsd"
       ]
     },
-    "Microsoft.WindowsAppSDK/1.5.240627000": {
-      "sha512": "qzzWG8rxZyzKzBuUdwr4ApezMINf+NT2b8EiEE5fchczNJJmDwlHImMWxX1pHK1W8Yby99alqLyC8DB0fIrhuA==",
+    "Microsoft.WindowsAppSDK/1.5.240802000": {
+      "sha512": "XW6cNzbGKDuzn+iCY1L9pNDm3pF78te8PXjKWEYk+rgePVPV/j2otr75Q5NMbWzsMF461Qq7aPJZKUQAQJNISQ==",
       "type": "package",
-      "path": "microsoft.windowsappsdk/1.5.240627000",
+      "path": "microsoft.windowsappsdk/1.5.240802000",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -30806,7 +31426,7 @@
         "manifests/Microsoft.InteractiveExperiences.manifest",
         "manifests/Microsoft.WindowsAppSdk.Foundation.manifest",
         "manifests/manifests/Microsoft.WindowsAppSdk.WinUI.manifest",
-        "microsoft.windowsappsdk.1.5.240627000.nupkg.sha512",
+        "microsoft.windowsappsdk.1.5.240802000.nupkg.sha512",
         "microsoft.windowsappsdk.nuspec",
         "runtimes/win-arm64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll",
         "runtimes/win-x64/native/Microsoft.WindowsAppRuntime.Bootstrap.dll",
@@ -30983,6 +31603,47 @@
         "tools/net6.0/System.Text.Json.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "Plugin.Fingerprint/2.1.5": {
+      "sha512": "+EyrBLC4a4JCgixgqSfI77Gf/pRMs/pe/LLoGBr1iyfwYFRfu7bjlHbO37ie8G5g/wV/gu9haMU26BneI4AAfg==",
+      "type": "package",
+      "path": "plugin.fingerprint/2.1.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid90/Plugin.Fingerprint.dll",
+        "lib/monoandroid90/Plugin.Fingerprint.pdb",
+        "lib/monoandroid90/Plugin.Fingerprint.xml",
+        "lib/net45/Plugin.Fingerprint.dll",
+        "lib/net45/Plugin.Fingerprint.pdb",
+        "lib/net45/Plugin.Fingerprint.xml",
+        "lib/netstandard2.0/Plugin.Fingerprint.dll",
+        "lib/netstandard2.0/Plugin.Fingerprint.pdb",
+        "lib/netstandard2.0/Plugin.Fingerprint.xml",
+        "lib/tizen40/Plugin.Fingerprint.dll",
+        "lib/tizen40/Plugin.Fingerprint.pdb",
+        "lib/tizen40/Plugin.Fingerprint.xml",
+        "lib/uap10.0.19041/Plugin.Fingerprint.dll",
+        "lib/uap10.0.19041/Plugin.Fingerprint.pdb",
+        "lib/uap10.0.19041/Plugin.Fingerprint.pri",
+        "lib/uap10.0.19041/Plugin.Fingerprint.xml",
+        "lib/xamarinios10/Plugin.Fingerprint.dll",
+        "lib/xamarinios10/Plugin.Fingerprint.pdb",
+        "lib/xamarinios10/Plugin.Fingerprint.xml",
+        "lib/xamarinmac20/Plugin.Fingerprint.dll",
+        "lib/xamarinmac20/Plugin.Fingerprint.pdb",
+        "lib/xamarinmac20/Plugin.Fingerprint.xml",
+        "lib/xamarintvos10/Plugin.Fingerprint.dll",
+        "lib/xamarintvos10/Plugin.Fingerprint.pdb",
+        "lib/xamarintvos10/Plugin.Fingerprint.xml",
+        "lib/xamarinwatchos10/Plugin.Fingerprint.dll",
+        "lib/xamarinwatchos10/Plugin.Fingerprint.pdb",
+        "lib/xamarinwatchos10/Plugin.Fingerprint.xml",
+        "plugin.fingerprint.2.1.5.nupkg.sha512",
+        "plugin.fingerprint.nuspec",
+        "readme.txt",
+        "xamarin_fingerprint.png"
       ]
     },
     "Xamarin.Android.Glide/4.15.1.2": {
@@ -31297,6 +31958,24 @@
         "lib/net6.0-android31.0/Xamarin.AndroidX.Arch.Core.Runtime.xml",
         "xamarin.androidx.arch.core.runtime.2.2.0.3.nupkg.sha512",
         "xamarin.androidx.arch.core.runtime.nuspec"
+      ]
+    },
+    "Xamarin.AndroidX.Biometric/1.1.0": {
+      "sha512": "JN9q/vk0OmHIp6B8khaZofTW9Ei9qJiTnKMgm6bvYCJobxp/kz4txRvED3TpRAlR9BIk5VS1gnMhRHuxS2Us+w==",
+      "type": "package",
+      "path": "xamarin.androidx.biometric/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "aar/androidx.biometric.biometric.aar",
+        "build/monoandroid90/Xamarin.AndroidX.Biometric.targets",
+        "buildTransitive/monoandroid90/Xamarin.AndroidX.Biometric.targets",
+        "lib/monoandroid90/Xamarin.AndroidX.Biometric.dll",
+        "lib/monoandroid90/Xamarin.AndroidX.Biometric.pdb",
+        "proguard/proguard.txt",
+        "xamarin.androidx.biometric.1.1.0.nupkg.sha512",
+        "xamarin.androidx.biometric.nuspec"
       ]
     },
     "Xamarin.AndroidX.Browser/1.5.0.3": {
@@ -33028,24 +33707,32 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.82",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.10"
+      "Microsoft.Maui.Essentials >= 8.0.92",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.10",
+      "Plugin.Fingerprint >= 2.1.5"
     ],
     "net8.0-ios18.0": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.82",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.10"
+      "Microsoft.Maui.Essentials >= 8.0.92",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.10",
+      "Plugin.Fingerprint >= 2.1.5"
     ],
     "net8.0-maccatalyst18.0": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.82",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.10"
+      "Microsoft.Maui.Essentials >= 8.0.92",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.10",
+      "Plugin.Fingerprint >= 2.1.5"
     ],
     "net8.0-windows10.0.19041": [
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.82",
-      "Microsoft.Maui.Controls.Compatibility >= 8.0.82"
+      "Microsoft.Maui.Controls.Compatibility >= 8.0.82",
+      "Microsoft.Maui.Essentials >= 8.0.92",
+      "Plugin.Fingerprint >= 2.1.5"
     ]
   },
   "packageFolders": {
@@ -33126,11 +33813,19 @@
             "target": "Package",
             "version": "[8.0.82, )"
           },
+          "Microsoft.Maui.Essentials": {
+            "target": "Package",
+            "version": "[8.0.92, )"
+          },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.10, )",
             "autoReferenced": true
+          },
+          "Plugin.Fingerprint": {
+            "target": "Package",
+            "version": "[2.1.5, )"
           }
         },
         "imports": [
@@ -33169,11 +33864,19 @@
             "target": "Package",
             "version": "[8.0.82, )"
           },
+          "Microsoft.Maui.Essentials": {
+            "target": "Package",
+            "version": "[8.0.92, )"
+          },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.10, )",
             "autoReferenced": true
+          },
+          "Plugin.Fingerprint": {
+            "target": "Package",
+            "version": "[2.1.5, )"
           }
         },
         "imports": [
@@ -33212,11 +33915,19 @@
             "target": "Package",
             "version": "[8.0.82, )"
           },
+          "Microsoft.Maui.Essentials": {
+            "target": "Package",
+            "version": "[8.0.92, )"
+          },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.10, )",
             "autoReferenced": true
+          },
+          "Plugin.Fingerprint": {
+            "target": "Package",
+            "version": "[2.1.5, )"
           }
         },
         "imports": [
@@ -33255,6 +33966,14 @@
           "Microsoft.Maui.Controls.Compatibility": {
             "target": "Package",
             "version": "[8.0.82, )"
+          },
+          "Microsoft.Maui.Essentials": {
+            "target": "Package",
+            "version": "[8.0.92, )"
+          },
+          "Plugin.Fingerprint": {
+            "target": "Package",
+            "version": "[2.1.5, )"
           }
         },
         "imports": [

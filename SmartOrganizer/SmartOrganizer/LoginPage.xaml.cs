@@ -1,4 +1,5 @@
-using Microsoft.Maui.ApplicationModel;
+using Plugin.Fingerprint;
+using Plugin.Fingerprint.Abstractions;
 using Microsoft.Maui.Controls;
 using System;
 
@@ -13,7 +14,9 @@ namespace SmartOrganizer
 
         private async void OnLoginButtonClicked(object sender, EventArgs e)
         {
-            var result = await BiometricAuthenticator.AuthenticateAsync(new AuthenticationRequestConfiguration("Login", "U¿yj odcisku palca do logowania"));
+            var request = new AuthenticationRequestConfiguration("Logowanie", "U¿yj odcisku palca, aby siê zalogowaæ");
+            var result = await CrossFingerprint.Current.AuthenticateAsync(request);
+
             if (result.Authenticated)
             {
                 await Shell.Current.GoToAsync("CalendarPage");
