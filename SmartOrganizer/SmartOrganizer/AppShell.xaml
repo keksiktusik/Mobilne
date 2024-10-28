@@ -1,34 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Shell
-    x:Class="SmartOrganizer.AppShell"
-    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:SmartOrganizer"
-    Shell.FlyoutBehavior="Disabled"
-    Title="SmartOrganizer">
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:SmartOrganizer"
+       x:Class="SmartOrganizer.AppShell">
 
-    <!-- Strona logowania -->
-    <ShellContent
-        Route="LoginPage"
-        ContentTemplate="{DataTemplate local:LoginPage}"
-        Title="Logowanie" />
+    <FlyoutItem Title="Kalendarz" Route="CalendarPage">
+        <ShellContent ContentTemplate="{DataTemplate local:CalendarPage}" />
+    </FlyoutItem>
 
-    <!-- Strona kalendarza (główna część aplikacji) -->
-    <ShellContent
-        Route="CalendarPage"
-        ContentTemplate="{DataTemplate local:CalendarPage}"
-        Title="Kalendarz" />
-
-    <!-- Strona ustawień -->
-    <ShellContent
-        Route="SettingsPage"
-        ContentTemplate="{DataTemplate local:SettingsPage}"
-        Title="Ustawienia" />
-
-    <!-- Strona planu dnia -->
-    <ShellContent
-        Route="DailyPlanPage"
-        ContentTemplate="{DataTemplate local:DailyPlanPage}"
-        Title="Plan Dnia" />
+    <FlyoutItem Title="Nowa strona" Route="NewPage1">
+        <ShellContent ContentTemplate="{DataTemplate local:NewPage1}" />
+    </FlyoutItem>
 
 </Shell>

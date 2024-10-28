@@ -14,12 +14,12 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartOrganizer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f095a8b7ca796100ff049872160e01f6779ca30d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2921fb373ad7a96f6c597e7427629f8bf56ab2c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartOrganizer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartOrganizer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("iOS18.0")]
-[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("iOS11.0")]
+[assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("iOS18.0")]
 
 // Wygenerowane przez klasę WriteCodeFragment programu MSBuild.
 

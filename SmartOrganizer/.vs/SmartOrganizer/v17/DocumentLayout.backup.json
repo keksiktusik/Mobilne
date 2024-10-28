@@ -3,32 +3,51 @@
   "WorkspaceRootPath": "C:\\Projects\\Mobilne\\SmartOrganizer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\smartorganizer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\smartorganizer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\calendarpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\calendarpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\newpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\newpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\calendarpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\calendarpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\marta\\.nuget\\packages\\plugin.fingerprint\\2.1.5\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|c:\\projects\\mobilne\\smartorganizer\\smartorganizer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DF51F6F-8138-4288-AE2D-41DEA36CA96A}|SmartOrganizer\\SmartOrganizer.csproj|solutionrelative:smartorganizer\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,67 +62,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "SmartOrganizer\\MauiProgram.cs",
+              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\MauiProgram.cs",
+              "RelativeToolTip": "SmartOrganizer\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T20:20:32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalendarPage.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\CalendarPage.xaml.cs",
+              "RelativeDocumentMoniker": "SmartOrganizer\\CalendarPage.xaml.cs",
+              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\CalendarPage.xaml.cs",
+              "RelativeToolTip": "SmartOrganizer\\CalendarPage.xaml.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAmwGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T20:05:04.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NewPage1.xaml",
+              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\NewPage1.xaml",
+              "RelativeDocumentMoniker": "SmartOrganizer\\NewPage1.xaml",
+              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\NewPage1.xaml",
+              "RelativeToolTip": "SmartOrganizer\\NewPage1.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-28T16:53:03.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "SmartOrganizer.csproj",
               "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\SmartOrganizer.csproj",
               "RelativeDocumentMoniker": "SmartOrganizer\\SmartOrganizer.csproj",
-              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\SmartOrganizer.csproj",
-              "RelativeToolTip": "SmartOrganizer\\SmartOrganizer.csproj",
-              "ViewState": "AgIAACUAAAAAAAAAAAAwwCkAAAACAAAAAAAAAA==",
+              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\SmartOrganizer.csproj*",
+              "RelativeToolTip": "SmartOrganizer\\SmartOrganizer.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-10-28T15:22:20.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "SmartOrganizer\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\LoginPage.xaml.cs",
-              "RelativeToolTip": "SmartOrganizer\\LoginPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T09:51:25.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "SmartOrganizer\\LoginPage.xaml",
-              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\LoginPage.xaml",
-              "RelativeToolTip": "SmartOrganizer\\LoginPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "CalendarPage.xaml",
+              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\CalendarPage.xaml",
+              "RelativeDocumentMoniker": "SmartOrganizer\\CalendarPage.xaml",
+              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\CalendarPage.xaml",
+              "RelativeToolTip": "SmartOrganizer\\CalendarPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwDUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-22T09:47:17.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NewPage2.xaml",
-              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\NewPage2.xaml",
-              "RelativeDocumentMoniker": "SmartOrganizer\\NewPage2.xaml",
-              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\NewPage2.xaml",
-              "RelativeToolTip": "SmartOrganizer\\NewPage2.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-22T09:51:14.95Z"
+              "WhenOpened": "2024-10-22T09:51:14.95Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\App.xaml.cs",
-              "RelativeDocumentMoniker": "SmartOrganizer\\App.xaml.cs",
-              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\App.xaml.cs",
-              "RelativeToolTip": "SmartOrganizer\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "SmartOrganizer\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\AppShell.xaml.cs",
+              "RelativeToolTip": "SmartOrganizer\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T09:29:18.717Z"
+              "WhenOpened": "2024-10-28T19:59:53.727Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\AppShell.xaml",
+              "RelativeDocumentMoniker": "SmartOrganizer\\AppShell.xaml",
+              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\AppShell.xaml",
+              "RelativeToolTip": "SmartOrganizer\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-22T07:54:00.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\App.xaml",
               "RelativeDocumentMoniker": "SmartOrganizer\\App.xaml",
@@ -111,19 +160,60 @@
               "RelativeToolTip": "SmartOrganizer\\App.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-22T08:00:08.506Z"
+              "WhenOpened": "2024-10-22T08:00:08.506Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\AppShell.xaml",
-              "RelativeDocumentMoniker": "SmartOrganizer\\AppShell.xaml",
-              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\AppShell.xaml",
-              "RelativeToolTip": "SmartOrganizer\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwB8AAAAcAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "SmartOrganizer\\LoginPage.xaml.cs",
+              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\LoginPage.xaml.cs",
+              "RelativeToolTip": "SmartOrganizer\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:51:25.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\marta\\.nuget\\packages\\plugin.fingerprint\\2.1.5\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\marta\\.nuget\\packages\\plugin.fingerprint\\2.1.5\\readme.txt",
+              "ToolTip": "C:\\Users\\marta\\.nuget\\packages\\plugin.fingerprint\\2.1.5\\readme.txt",
+              "RelativeToolTip": "..\\..\\..\\Users\\marta\\.nuget\\packages\\plugin.fingerprint\\2.1.5\\readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-10-28T15:37:01.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\App.xaml.cs",
+              "RelativeDocumentMoniker": "SmartOrganizer\\App.xaml.cs",
+              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\App.xaml.cs",
+              "RelativeToolTip": "SmartOrganizer\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T09:29:18.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "SmartOrganizer\\LoginPage.xaml",
+              "ToolTip": "C:\\Projects\\Mobilne\\SmartOrganizer\\SmartOrganizer\\LoginPage.xaml",
+              "RelativeToolTip": "SmartOrganizer\\LoginPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-22T07:54:00.512Z"
+              "WhenOpened": "2024-10-22T09:47:17.929Z",
+              "EditorCaption": ""
             }
           ]
         }
