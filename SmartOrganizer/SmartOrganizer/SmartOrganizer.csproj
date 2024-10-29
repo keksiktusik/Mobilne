@@ -2,10 +2,15 @@
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<TargetFrameworks>net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
+		<TargetFramework>net7.0-android</TargetFramework>
 		<UseMaui>true</UseMaui>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<AndroidMinimumSdkVersion>21</AndroidMinimumSdkVersion>
+		<!-- Ustaw na 21 lub niższy poziom zgodny z urządzeniem -->
+		<AndroidTargetSdkVersion>34</AndroidTargetSdkVersion>
+		<SupportedOSPlatformVersion>33.0</SupportedOSPlatformVersion>
+		<!-- API 34 dla Androida 14 -->
 	</PropertyGroup>
 
 	<ItemGroup>
