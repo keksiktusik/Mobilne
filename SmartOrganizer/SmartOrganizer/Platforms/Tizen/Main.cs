@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace SmartOrganizer
+namespace esfhuesuiuest
 {
     internal class Program : MauiApplication
     {

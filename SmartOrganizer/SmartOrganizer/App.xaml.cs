@@ -7,8 +7,7 @@ namespace SmartOrganizer
         public App()
         {
             InitializeComponent();
-
-            MainPage = new AppShell();
+            MainPage = new MainPage();
         }
     }
 }

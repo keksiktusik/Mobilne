@@ -1,4 +1,7 @@
-﻿namespace SmartOrganizer
+using Microsoft.Maui.Accessibility;
+using Microsoft.Maui.Controls;
+
+namespace SmartOrganizer
 {
     public partial class MainPage : ContentPage
     {
@@ -21,5 +24,4 @@
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
     }
-
 }

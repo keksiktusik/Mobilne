@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace SmartOrganizer
+namespace esfhuesuiuest
 {
     public class Program
     {

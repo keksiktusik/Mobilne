@@ -1,6 +1,6 @@
 ﻿using Foundation;
-
-namespace SmartOrganizer
+using SmartOrganizer;
+namespace esfhuesuiuest
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

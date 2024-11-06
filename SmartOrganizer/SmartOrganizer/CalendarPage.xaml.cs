@@ -22,8 +22,11 @@ namespace SmartOrganizer
                 if (YearPicker.SelectedIndex >= 0)
                 {
                     int selectedMonth = MonthPicker.SelectedIndex + 1;
-                    int selectedYear = int.Parse(YearPicker.SelectedItem.ToString());
-                    LoadCalendar(selectedMonth, selectedYear);
+                    int selectedYear;
+                    if (int.TryParse(YearPicker.SelectedItem?.ToString(), out selectedYear))
+                    {
+                        LoadCalendar(selectedMonth, selectedYear);
+                    }
                 }
             };
 
@@ -39,8 +42,11 @@ namespace SmartOrganizer
                 if (MonthPicker.SelectedIndex >= 0)
                 {
                     int selectedMonth = MonthPicker.SelectedIndex + 1;
-                    int selectedYear = int.Parse(YearPicker.SelectedItem.ToString());
-                    LoadCalendar(selectedMonth, selectedYear);
+                    int selectedYear;
+                    if (int.TryParse(YearPicker.SelectedItem?.ToString(), out selectedYear))
+                    {
+                        LoadCalendar(selectedMonth, selectedYear);
+                    }
                 }
             };
 
@@ -55,12 +61,15 @@ namespace SmartOrganizer
             string[] daysOfWeek = { "Pn", "Wt", "Œr", "Cz", "Pt", "Sb", "Nd" };
             for (int i = 0; i < daysOfWeek.Length; i++)
             {
-                CalendarGrid.Children.Add(new Label
+                Label dayLabel = new Label
                 {
                     Text = daysOfWeek[i],
                     HorizontalOptions = LayoutOptions.Center,
                     TextColor = Colors.Red
-                }, i, 0);
+                };
+                CalendarGrid.Children.Add(dayLabel);
+                Grid.SetRow(dayLabel, 0);
+                Grid.SetColumn(dayLabel, i);
             }
 
             int daysInMonth = DateTime.DaysInMonth(year, month);
@@ -89,7 +98,9 @@ namespace SmartOrganizer
                         VerticalOptions = LayoutOptions.Center,
                         TextColor = Colors.Black
                     };
-                    CalendarGrid.Children.Add(dayLabel, column, row);
+                    CalendarGrid.Children.Add(dayLabel);
+                    Grid.SetRow(dayLabel, row);
+                    Grid.SetColumn(dayLabel, column);
                     dayCounter++;
                 }
             }
